@@ -16,7 +16,7 @@ public class Block {
 		this.transactions=transactions;
 		
 		Object[] content = {Arrays.hashCode(transactions), previousHash}; 
-		this.blockHash = Arrays.hashCode(content);							//obtemos aqui o conceito de corrente de informção
+		this.blockHash = Arrays.hashCode(content); //obtemos aqui o conceito de corrente de informção
 		
 		
 		}
